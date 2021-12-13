@@ -116,6 +116,7 @@ img{
     height: auto;
 }
 /*==================== REUSABLE CSS CLASSES ====================*/
+
 .section{
     padding: 2rem 0 4rem;
 }
@@ -300,9 +301,9 @@ img{
     margin-bottom: var(--mb-2);
 }
 
-.home__scroll{
-   /* display: none; */
-}
+/* .home__scroll{
+   display: none;
+} */
 
 .home__scroll-button{
     color: var(--first-color);
@@ -392,25 +393,44 @@ img{
     justify-content: center;
 }
 
-/*==================== SKILLS ====================*/
+/*==================== Education ====================*/
+
+.education__info{
+    margin-top: var(--mb-2);
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: var(--mb-2-5);
+}
+
+.education__info-title{
+    font-size: var(--h2-font-size);
+    font-weight: var(--font-semi-bold);
+    color: var(--title-color);
+}
+
+.education__info-name{
+    font-size: var(--normal-font-size);
+}
+
+.education__info-title,
+.education__info-name{
+    display: block;
+    text-align: center;
+}
+
+/*==================== Skills ====================*/
 
 
-/*==================== QUALIFICATION ====================*/
-
-
-/*==================== SERVICES ====================*/
+/*==================== Projects ====================*/
 
 
 /* Active Modal */
 
 
-/*==================== PORTFOLIO ====================*/
+/*==================== Achievements ====================*/
 
 
-/*==================== PROJECT IN MIND ====================*/
-
-
-/*==================== TESTIMONIAL ====================*/
+/*==================== Interests ====================*/
 
 
 /*==================== CONTACT ME ====================*/
