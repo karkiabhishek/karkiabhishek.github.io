@@ -1,0 +1,18 @@
+https://nodejs.dev/learn
+
+1. npm init
+
+2. Fill fields.
+
+3. Type yes
+
+package.json is created
+
+4. npm install express --save
+
+##Install nodemon to run server without restart
+5. npm install -g nodemon
+
+6. nodemon .\website.js
+
+https://youtu.be/BLl32FvcdVM?t=4609

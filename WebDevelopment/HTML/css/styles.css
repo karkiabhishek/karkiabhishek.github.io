@@ -1,0 +1,90 @@
+.heading{
+    color: crimson;
+    background-color: black;
+}
+
+/* p{
+    border: 2px solid red;
+    padding: 30px;
+    margin: 60px;
+} */
+
+
+.button1:link, .button1:visited {
+    background-color: #f44336;
+    color: rgb(255, 255, 255);
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+.button1:hover{
+    background-color: red;
+  }
+
+body{
+    background-image: url(/images/white.jpg);
+    background-repeat: no-repeat;  
+    background-size: cover;
+}  
+
+th, td{
+    color: rgb(0, 0, 0);
+    border-color: rgb(0, 108, 151);
+    border-collapse: collapse;
+    border-radius: 5px;
+    border-style: inset;
+    padding-left: 5px;
+    text-align: center;
+}
+
+table{
+    margin: 100px;
+}
+
+tr:hover {background-color: #ff2a2a7e;}
+
+ul{
+    list-style-type: circle;
+    color: antiquewhite;
+}
+
+ol{
+    color: antiquewhite;
+}
+
+dl{
+    color: antiquewhite;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #c82323;
+  }
+  
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  padding: 20px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111111;
+}
+
+#iduse{
+    text-align: center;
+    color: #f44336;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}

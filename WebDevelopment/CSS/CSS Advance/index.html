@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Advance</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <p>Rounded corner with coloured background.</p>
+    <p id="box1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque veniam iste error temporibus quaerat molestias porro voluptatibus nihil quod minima!</p>
+
+    <p>Rounded corner with coloured border.</p>
+    <p id="box2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque veniam iste error temporibus quaerat molestias porro voluptatibus nihil quod minima!</p>
+
+    <p>Rounded corner with image as background.</p>
+    <p id="box3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque veniam iste error temporibus quaerat molestias porro voluptatibus nihil quod minima!</p>
+
+    <p>Bordered paragraph.</p>
+    <p id="bordering">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque veniam iste error temporibus quaerat molestias porro voluptatibus nihil quod minima!</p>
+
+    <div id="card1">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit sequi fuga ratione quibusdam aliquid ipsam dolores explicabo? Accusantium quos, maiores illo laboriosam quisquam ut, aliquid mollitia architecto tempora, quaerat rem!</p>
+    </div>
+
+    <div class="card2">
+        <div class="header">
+          <h1>1</h1>
+        </div>
+      
+        <div class="container">
+          <p>January 1, 2021</p>
+        </div>
+    </div>
+
+    <div id="transition">
+        <h4>Rotating</h4>
+    </div>
+
+    <div class="tooltip">Hover over me
+        <span class="tooltiptext">Tooltip text</span>
+    </div>
+
+    <div class="container2">
+        <img src="tape.jpg" alt="tapes" class="image">
+        <div class="overlay">   
+          <div class="text">This is tape</div>
+        </div>
+    </div>
+
+    <!-- <div class="home_img">
+        <svg class="home_blob" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg" width="500px" height="auto">
+            <mask id="svgmask" mask-type="alpha">
+                <path d="M62.4,-53.2C74.4,-34.7,73.3,-9.1,67.8,15.8C62.4,40.8,52.8,65.1,35.4,73.5C18.1,81.8,-7,74.1,-28.9,62.6C-50.9,51.1,-69.8,35.7,-74.1,16.9C-78.4,-1.8,-68.1,-23.9,-53.3,-43.1C-38.5,-62.2,-19.2,-78.4,3,-80.7C25.2,-83.1,50.4,-71.7,62.4,-53.2Z">
+            </mask>
+            <g mask="url(#svgmask)">
+                <path d="M62.4,-53.2C74.4,-34.7,73.3,-9.1,67.8,15.8C62.4,40.8,52.8,65.1,35.4,73.5C18.1,81.8,-7,74.1,-28.9,62.6C-50.9,51.1,-69.8,35.7,-74.1,16.9C-78.4,-1.8,-68.1,-23.9,-53.3,-43.1C-38.5,-62.2,-19.2,-78.4,3,-80.7C25.2,-83.1,50.4,-71.7,62.4,-53.2Z"></path>
+                <image class="home_blob-img" x="50" y="60" href="tape.jpg" alt="tapes">
+            </g>
+        </svg>
+    </div> -->
+
+    <div class="mask_image">
+        <svg width="700" height="700">
+            <mask id="svgmask3">
+            <circle fill="#ffffff" cx="180" cy="170" r="130"></circle>
+            <circle fill="#ffffff" cx="480" cy="260" r="75"></circle>
+            <circle fill="#ffffff" cx="270" cy="500" r="150"></circle>
+            </mask>
+                <image class="mask_back" href="tape.jpg" mask="url(#svgmask3)">
+            </image>
+        </svg>
+    </div>
+
+    <button class="button" style="vertical-align:middle"><span>Hover </span></button>
+
+    <div class="pagination">
+        <a href="#">&laquo;</a>
+        <a href="#">1</a>
+        <a class="active" href="#">2</a>
+        <a href="#">3</a>
+        <a href="#">4</a>
+        <a href="#">5</a>
+        <a href="#">6</a>
+        <a href="#">&raquo;</a>
+    </div>
+
+</body>
+</html>
